@@ -23,7 +23,7 @@ Já participou de coberturas internacionais em Buenos Aires, Paris, Dubai (GITEX
 
 Também atua em diferentes formatos de mídia, com participações na **CNN Brasil**, apresentação do **Podcast Canaltech**, do **Tecnocast** (Tecnoblog) e do **Porta 101** (Canaltech).
 
-{{< button href="http://localhost:1313/projetos" target="_self" >}}
+{{< button href="https://brunogdb.com/projetos" target="_self" >}}
 Acompanhe o meu trabalho →
 {{< /button >}}
 
