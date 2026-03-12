@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bruno De Blasi on Bruno Gall De Blasi</title>
+    <link>https://brunogdb.com/</link>
+    <description>Recent content in Bruno De Blasi on Bruno Gall De Blasi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <copyright>© 2026 Bruno Gall De Blasi</copyright>
+    <atom:link href="https://brunogdb.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Canaltech</title>
+      <link>https://brunogdb.com/projetos/jornalismo/canaltech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunogdb.com/projetos/jornalismo/canaltech/</guid>
+      <description>Cobertura jornalística de tecnologia para um dos maiores portais de tech do Brasil.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://brunogdb.com/projetos/jornalismo/canaltech/featured.png" />
+    </item>
+    
+    <item>
+      <title>CNN Brasil</title>
+      <link>https://brunogdb.com/projetos/jornalismo/cnn-brasil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunogdb.com/projetos/jornalismo/cnn-brasil/</guid>
+      <description>Participação em quadros sobre tecnologia e negócios da CNN Brasil.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://brunogdb.com/projetos/jornalismo/cnn-brasil/featured.png" />
+    </item>
+    
+    <item>
+      <title>Giz Brasil</title>
+      <link>https://brunogdb.com/projetos/jornalismo/giz-brasil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunogdb.com/projetos/jornalismo/giz-brasil/</guid>
+      <description>Cobertura jornalística de tecnologia, gadgets e inovação para o Giz Brasil.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://brunogdb.com/projetos/jornalismo/giz-brasil/featured.png" />
+    </item>
+    
+    <item>
+      <title>Tecnoblog</title>
+      <link>https://brunogdb.com/projetos/jornalismo/tecnoblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunogdb.com/projetos/jornalismo/tecnoblog/</guid>
+      <description>Cobertura especializada de tecnologia e negócios para um dos maiores blogs de tech do Brasil.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://brunogdb.com/projetos/jornalismo/tecnoblog/featured.png" />
+    </item>
+    
+    <item>
+      <title>Quem é Bruno Gall De Blasi?</title>
+      <link>https://brunogdb.com/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunogdb.com/sobre/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://brunogdb.com/sobre/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

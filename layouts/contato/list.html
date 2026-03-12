@@ -1,0 +1,66 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+  <article>
+    {{/* Header */}}
+    <header id="single_header" class="mt-5 max-w-prose">
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+
+    {{/* Body */}}
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      <div class="min-w-0 min-h-0 max-w-prose mx-auto">
+
+        {{/* Intro text */}}
+        {{ if .Content }}
+          <div class="article-content max-w-prose mb-8">
+            {{ .Content }}
+          </div>
+        {{ end }}
+
+        {{/* E-mail pessoal */}}
+        <div class="not-prose mb-8">
+          <p class="text-sm text-neutral-700 dark:text-neutral-300 mb-3">{{ if eq .Lang "en" }}Send an email:{{ else }}Mande um e-mail:{{ end }}</p>
+          <span
+            id="reveal-email"
+            data-u="hi"
+            data-d="brunogdb.com"
+            class="cursor-pointer inline-block rounded-md border border-neutral-300 dark:border-neutral-600 px-4 py-2 text-sm font-medium text-primary-600 dark:text-primary-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors select-none"
+          >{{ if eq .Lang "en" }}Click to reveal email{{ else }}Clique para ver o e-mail{{ end }}</span>
+          <script>
+            document.getElementById('reveal-email').addEventListener('click', function() {
+              var u = this.getAttribute('data-u');
+              var d = this.getAttribute('data-d');
+              var email = u + '\u0040' + d;
+              var a = document.createElement('a');
+              a.href = 'mailto:' + email;
+              a.textContent = email;
+              a.className = 'inline-block rounded-md border border-neutral-300 dark:border-neutral-600 px-4 py-2 text-sm font-medium text-primary-600 dark:text-primary-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors';
+              this.parentNode.replaceChild(a, this);
+            });
+          </script>
+        </div>
+
+        {{/* Canaltech */}}
+        <div class="not-prose mb-10">
+          <p class="text-sm text-neutral-700 dark:text-neutral-300">
+            {{ if eq .Lang "en" }}For Canaltech pitches, reach out at{{ else }}Para pautas ao Canaltech, entre em contato com{{ end }}
+            <a
+              href="mailto:bruno.blasi@canaltech.com.br"
+              class="text-primary-600 dark:text-primary-400 underline hover:opacity-80"
+            >bruno.blasi@canaltech.com.br</a>.
+          </p>
+        </div>
+
+        {{/* Social Links */}}
+        <div class="not-prose mb-20">
+          <hr class="border-dotted border-neutral-300 dark:border-neutral-600 mb-6">
+          <h2 class="text-xl font-bold text-neutral-800 dark:text-neutral mb-3">{{ if eq .Lang "en" }}Social Media{{ else }}Redes Sociais{{ end }}</h2>
+          {{ partial "author-links.html" . }}
+        </div>
+
+      </div>
+    </section>
+  </article>
+{{ end }}

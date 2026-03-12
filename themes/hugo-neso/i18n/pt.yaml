@@ -1,0 +1,80 @@
+alert_caution:
+    other: "Cuidado"
+
+alert_important:
+    other: "Importante"
+
+alert_note:
+    other: "Nota"
+
+alert_tip:
+    other: "Dica"
+
+alert_warning:
+    other: "Aviso"
+
+author:
+    one: "Autor: "
+    other: "Autores: "
+
+breadcrumbs:
+    other: "Navegação"
+
+code_copied:
+    other: "📋 Copiado!"
+
+code_copy:
+    other: "Copiar"
+
+draft:
+    other: "Rascunho"
+
+entry_count:
+    other: "Total de entradas: "
+
+entry_link_aria:
+    other: "Ler “{{ .Title }}”"
+
+feature_entries:
+    other: "Destaques"
+
+heading_link_label:
+    other: "Link para esta seção"
+
+home:
+    other: "Início"
+
+next_entry:
+    other: "Mais recente"
+
+next_page:
+    other: "Próxima"
+
+prev_entry:
+    other: "Mais antigo"
+
+prev_page:
+    other: "Anterior"
+
+read_time:
+    one: "Leitura: 1 min"
+    other: "Leitura: {{ .Count }} min"
+
+share_btn_aria:
+    other: "Compartilhar “{{ .Title }}” no {{ .Provider }}"
+
+share_btn_title:
+    other: "Compartilhar no {{ .Provider }}"
+
+toc:
+    other: "Índice"
+
+translations:
+    other: "Traduções:&nbsp;"
+
+view_archives:
+    other: "Ver Arquivos"
+
+words:
+    one: "palavra"
+    other: "{{ .Count }} palavras"
