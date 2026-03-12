@@ -23,7 +23,7 @@ He has participated in international coverage in Buenos Aires, Paris, Dubai (GIT
 
 He also works across different media formats, with appearances on **CNN Brasil**, and as host of the **Canaltech Podcast**, **Tecnocast** (Tecnoblog), and **Porta 101** (Canaltech).
 
-{{< button href="/en/projetos" target="_self" >}}
+{{< button href="https://brunogdb.com/projetos/en/projetos" target="_self" >}}
 Follow my work →
 {{< /button >}}
 
